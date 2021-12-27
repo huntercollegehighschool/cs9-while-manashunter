@@ -11,3 +11,9 @@ Hunter
 Hunter
 
 '''
+number = int(input('Times to print: '))
+current_number = 0
+while current_number < number:
+  print("Hunter")
+  current_number += 1
+  
